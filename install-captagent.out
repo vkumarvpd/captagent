@@ -1,0 +1,814 @@
+You need to have m4, automake, autoconf, libtool...
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to use compression... no
+checking whether to use ssl... no
+checking whether to use mysql... no
+no
+checking whether to use pcre... no
+checking whether to use redis... no
+
+checking whether to use TLS... no
+no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1966080
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking host system type... (cached) x86_64-unknown-linux-gnu
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for pthread_create in -lpthread... yes
+checking for dlopen in -ldl... yes
+checking for XML_ParserCreate in -lexpat... yes
+checking for pcap_open_live in -lpcap... yes
+checking for json_object_get in -ljson... yes
+configure: checking for LiBUV and Header files...
+checking uv.h usability... yes
+checking uv.h presence... yes
+checking for uv.h... yes
+checking for uv_now in -luv... yes
+checking pcap.h usability... yes
+checking pcap.h presence... yes
+checking for pcap.h... yes
+checking json-c/json.h usability... yes
+checking json-c/json.h presence... yes
+checking for json-c/json.h... yes
+checking json/json.h usability... yes
+checking json/json.h presence... yes
+checking for json/json.h... yes
+checking json.h usability... no
+checking json.h presence... no
+checking for json.h... no
+checking for int32_t... yes
+checking for int8_t... yes
+checking for pid_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for gettimeofday... yes
+checking for memset... yes
+checking for select... yes
+checking for socket... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strndup... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating captagent.spec
+config.status: creating include/Makefile
+config.status: creating src/Makefile
+config.status: creating conf/captagent.xml
+config.status: creating pkg/debian/captagent.init
+config.status: creating src/modules/protocol/sip/Makefile
+config.status: creating src/modules/protocol/sip/captureplan/Makefile
+config.status: creating src/modules/protocol/ss7/Makefile
+config.status: creating src/modules/protocol/tls/Makefile
+config.status: creating src/modules/protocol/tls/captureplan/Makefile
+config.status: creating src/modules/protocol/rtcp/Makefile
+config.status: creating src/modules/protocol/rtcp/captureplan/Makefile
+config.status: creating src/modules/protocol/rtcpxr/Makefile
+config.status: creating src/modules/protocol/rtcpxr/captureplan/Makefile
+config.status: creating src/modules/protocol/diameter/Makefile
+config.status: creating src/modules/protocol/diameter/captureplan/Makefile
+config.status: creating src/modules/socket/pcap/Makefile
+config.status: creating src/modules/socket/collector/Makefile
+config.status: creating src/modules/socket/collector/captureplan/Makefile
+config.status: creating src/modules/socket/tzsp/Makefile
+config.status: creating src/modules/socket/tzsp/captureplan/Makefile
+config.status: creating src/modules/transport/hep/Makefile
+config.status: creating src/modules/transport/json/Makefile
+config.status: creating src/modules/interface/http/Makefile
+config.status: creating src/modules/database/redis/Makefile
+config.status: creating src/modules/database/hash/Makefile
+config.status: creating src/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+captagent 6.3.0
+
+Build directory............. :
+Installation prefix......... : /usr/local/captagent
+HEP Compression............. : no
+IPv6 support.................: no
+HEP SSL/TLS................. : no
+Flex........................ : flex
+Bison....................... : bison -y
+
+Build with REDIS............ : no
+Build with MySQL............ : no
+Build with PCRE............. : no
+Build with LibUV............ : yes
+Build with EPAN............. : no
+Build with TLS.............. : no
+
+Making install in src
+make[1]: Entering directory `/usr/src/captagent/src'
+make  install-recursive
+make[2]: Entering directory `/usr/src/captagent/src'
+Making install in .
+make[3]: Entering directory `/usr/src/captagent/src'
+make[4]: Entering directory `/usr/src/captagent/src'
+test -z "/usr/local/captagent/sbin" || /bin/mkdir -p "/usr/local/captagent/sbin"
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c captagent '/usr/local/captagent/sbin'
+libtool: install: /usr/bin/install -c captagent /usr/local/captagent/sbin/captagent
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../conf/captagent.xml '/usr/local/captagent/etc/captagent'
+test -z "" || /bin/mkdir -p ""
+make[4]: Leaving directory `/usr/src/captagent/src'
+make[3]: Leaving directory `/usr/src/captagent/src'
+Making install in modules/socket/pcap
+make[3]: Entering directory `/usr/src/captagent/src/modules/socket/pcap'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/socket/pcap'
+make[5]: Entering directory `/usr/src/captagent/src/modules/socket/pcap'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   socket_pcap.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/socket_pcap.so /usr/local/captagent/lib/captagent/modules/socket_pcap.so
+libtool: install: /usr/bin/install -c .libs/socket_pcap.lai /usr/local/captagent/lib/captagent/modules/socket_pcap.la
+libtool: install: /usr/bin/install -c .libs/socket_pcap.a /usr/local/captagent/lib/captagent/modules/socket_pcap.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/socket_pcap.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/socket_pcap.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/socket_pcap.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/socket/pcap'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/socket/pcap'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/socket/pcap'
+Making install in modules/socket/collector
+make[3]: Entering directory `/usr/src/captagent/src/modules/socket/collector'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/socket/collector'
+make[5]: Entering directory `/usr/src/captagent/src/modules/socket/collector'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   socket_collector.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/socket_collector.so /usr/local/captagent/lib/captagent/modules/socket_collector.so
+libtool: install: /usr/bin/install -c .libs/socket_collector.lai /usr/local/captagent/lib/captagent/modules/socket_collector.la
+libtool: install: /usr/bin/install -c .libs/socket_collector.a /usr/local/captagent/lib/captagent/modules/socket_collector.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/socket_collector.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/socket_collector.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/socket_collector.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/socket/collector'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/socket/collector'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/socket/collector/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/socket/collector/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/socket/collector/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/rtcpxr_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/socket/collector/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/socket/collector/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/socket/collector/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/socket/collector'
+Making install in modules/socket/tzsp
+make[3]: Entering directory `/usr/src/captagent/src/modules/socket/tzsp'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/socket/tzsp'
+make[5]: Entering directory `/usr/src/captagent/src/modules/socket/tzsp'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   socket_tzsp.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/socket_tzsp.so /usr/local/captagent/lib/captagent/modules/socket_tzsp.so
+libtool: install: /usr/bin/install -c .libs/socket_tzsp.lai /usr/local/captagent/lib/captagent/modules/socket_tzsp.la
+libtool: install: /usr/bin/install -c .libs/socket_tzsp.a /usr/local/captagent/lib/captagent/modules/socket_tzsp.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/socket_tzsp.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/socket_tzsp.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/socket_tzsp.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/socket/tzsp'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/socket/tzsp'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/socket/tzsp/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/socket/tzsp/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/socket/tzsp/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/tzsp_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/socket/tzsp/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/socket/tzsp/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/socket/tzsp/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/socket/tzsp'
+Making install in modules/protocol/sip
+make[3]: Entering directory `/usr/src/captagent/src/modules/protocol/sip'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/sip'
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/sip'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   protocol_sip.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/protocol_sip.so /usr/local/captagent/lib/captagent/modules/protocol_sip.so
+libtool: install: /usr/bin/install -c .libs/protocol_sip.lai /usr/local/captagent/lib/captagent/modules/protocol_sip.la
+libtool: install: /usr/bin/install -c .libs/protocol_sip.a /usr/local/captagent/lib/captagent/modules/protocol_sip.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/protocol_sip.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/protocol_sip.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/protocol_sip.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/sip'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/sip'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/sip/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/sip/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/protocol/sip/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/sip_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/protocol/sip/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/sip/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/sip/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/protocol/sip'
+Making install in modules/protocol/rtcp
+make[3]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcp'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcp'
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcp'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   protocol_rtcp.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/protocol_rtcp.so /usr/local/captagent/lib/captagent/modules/protocol_rtcp.so
+libtool: install: /usr/bin/install -c .libs/protocol_rtcp.lai /usr/local/captagent/lib/captagent/modules/protocol_rtcp.la
+libtool: install: /usr/bin/install -c .libs/protocol_rtcp.a /usr/local/captagent/lib/captagent/modules/protocol_rtcp.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/protocol_rtcp.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/protocol_rtcp.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/protocol_rtcp.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcp'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcp'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcp/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcp/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcp/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/rtcp_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcp/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcp/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcp/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcp'
+Making install in modules/protocol/tls
+make[3]: Entering directory `/usr/src/captagent/src/modules/protocol/tls'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/tls'
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/tls'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   protocol_tls.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/protocol_tls.so /usr/local/captagent/lib/captagent/modules/protocol_tls.so
+libtool: install: /usr/bin/install -c .libs/protocol_tls.lai /usr/local/captagent/lib/captagent/modules/protocol_tls.la
+libtool: install: /usr/bin/install -c .libs/protocol_tls.a /usr/local/captagent/lib/captagent/modules/protocol_tls.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/protocol_tls.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/protocol_tls.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/protocol_tls.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/tls'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/tls'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/tls/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/tls/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/protocol/tls/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/tls_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/protocol/tls/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/tls/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/tls/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/protocol/tls'
+Making install in modules/protocol/rtcpxr
+make[3]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcpxr'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcpxr'
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcpxr'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   protocol_rtcpxr.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/protocol_rtcpxr.so /usr/local/captagent/lib/captagent/modules/protocol_rtcpxr.so
+libtool: install: /usr/bin/install -c .libs/protocol_rtcpxr.lai /usr/local/captagent/lib/captagent/modules/protocol_rtcpxr.la
+libtool: install: /usr/bin/install -c .libs/protocol_rtcpxr.a /usr/local/captagent/lib/captagent/modules/protocol_rtcpxr.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/protocol_rtcpxr.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/protocol_rtcpxr.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/protocol_rtcpxr.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcpxr'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcpxr'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcpxr/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcpxr/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/protocol/rtcpxr/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/rtcpxr_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcpxr/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcpxr/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcpxr/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/protocol/rtcpxr'
+Making install in modules/protocol/diameter
+make[3]: Entering directory `/usr/src/captagent/src/modules/protocol/diameter'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/diameter'
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/diameter'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   protocol_diameter.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/protocol_diameter.so /usr/local/captagent/lib/captagent/modules/protocol_diameter.so
+libtool: install: /usr/bin/install -c .libs/protocol_diameter.lai /usr/local/captagent/lib/captagent/modules/protocol_diameter.la
+libtool: install: /usr/bin/install -c .libs/protocol_diameter.a /usr/local/captagent/lib/captagent/modules/protocol_diameter.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/protocol_diameter.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/protocol_diameter.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/protocol_diameter.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/diameter'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/diameter'
+Making install in captureplan
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/diameter/captureplan'
+Making install in .
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/diameter/captureplan'
+make[6]: Entering directory `/usr/src/captagent/src/modules/protocol/diameter/captureplan'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent/captureplans" || /bin/mkdir -p "/usr/local/captagent/etc/captagent/captureplans"
+ /usr/bin/install -c -m 644 ../../../../../conf/captureplans/diameter_capture_plan.cfg '/usr/local/captagent/etc/captagent/captureplans'
+make[6]: Leaving directory `/usr/src/captagent/src/modules/protocol/diameter/captureplan'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/diameter/captureplan'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/diameter/captureplan'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/protocol/diameter'
+Making install in modules/protocol/ss7
+make[3]: Entering directory `/usr/src/captagent/src/modules/protocol/ss7'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/protocol/ss7'
+make[5]: Entering directory `/usr/src/captagent/src/modules/protocol/ss7'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   protocol_ss7.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/protocol_ss7.so /usr/local/captagent/lib/captagent/modules/protocol_ss7.so
+libtool: install: /usr/bin/install -c .libs/protocol_ss7.lai /usr/local/captagent/lib/captagent/modules/protocol_ss7.la
+libtool: install: /usr/bin/install -c .libs/protocol_ss7.a /usr/local/captagent/lib/captagent/modules/protocol_ss7.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/protocol_ss7.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/protocol_ss7.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/protocol_ss7.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/protocol/ss7'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/protocol/ss7'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/protocol/ss7'
+Making install in modules/transport/hep
+make[3]: Entering directory `/usr/src/captagent/src/modules/transport/hep'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/transport/hep'
+make[5]: Entering directory `/usr/src/captagent/src/modules/transport/hep'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   transport_hep.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/transport_hep.so /usr/local/captagent/lib/captagent/modules/transport_hep.so
+libtool: install: /usr/bin/install -c .libs/transport_hep.lai /usr/local/captagent/lib/captagent/modules/transport_hep.la
+libtool: install: /usr/bin/install -c .libs/transport_hep.a /usr/local/captagent/lib/captagent/modules/transport_hep.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/transport_hep.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/transport_hep.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/transport_hep.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/transport/hep'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/transport/hep'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/transport/hep'
+Making install in modules/transport/json
+make[3]: Entering directory `/usr/src/captagent/src/modules/transport/json'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/transport/json'
+make[5]: Entering directory `/usr/src/captagent/src/modules/transport/json'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   output_json.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/output_json.so /usr/local/captagent/lib/captagent/modules/output_json.so
+libtool: install: /usr/bin/install -c .libs/output_json.lai /usr/local/captagent/lib/captagent/modules/output_json.la
+libtool: install: /usr/bin/install -c .libs/output_json.a /usr/local/captagent/lib/captagent/modules/output_json.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/output_json.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/output_json.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/output_json.xml '/usr/local/captagent/etc/captagent'
+make[5]: Leaving directory `/usr/src/captagent/src/modules/transport/json'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/transport/json'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/transport/json'
+Making install in modules/database/hash
+make[3]: Entering directory `/usr/src/captagent/src/modules/database/hash'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/database/hash'
+make[5]: Entering directory `/usr/src/captagent/src/modules/database/hash'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/database_hash.xml '/usr/local/captagent/etc/captagent'
+test -z "/usr/local/captagent/include" || /bin/mkdir -p "/usr/local/captagent/include"
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   database_hash.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/database_hash.so /usr/local/captagent/lib/captagent/modules/database_hash.so
+libtool: install: /usr/bin/install -c .libs/database_hash.lai /usr/local/captagent/lib/captagent/modules/database_hash.la
+libtool: install: /usr/bin/install -c .libs/database_hash.a /usr/local/captagent/lib/captagent/modules/database_hash.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/database_hash.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/database_hash.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory `/usr/src/captagent/src/modules/database/hash'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/database/hash'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/database/hash'
+Making install in modules/database/redis
+make[3]: Entering directory `/usr/src/captagent/src/modules/database/redis'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/database/redis'
+make[5]: Entering directory `/usr/src/captagent/src/modules/database/redis'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/etc/captagent" || /bin/mkdir -p "/usr/local/captagent/etc/captagent"
+ /usr/bin/install -c -m 644 ../../../../conf/database_redis.xml '/usr/local/captagent/etc/captagent'
+test -z "/usr/local/captagent/include" || /bin/mkdir -p "/usr/local/captagent/include"
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   database_redis.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/database_redis.so /usr/local/captagent/lib/captagent/modules/database_redis.so
+libtool: install: /usr/bin/install -c .libs/database_redis.lai /usr/local/captagent/lib/captagent/modules/database_redis.la
+libtool: install: /usr/bin/install -c .libs/database_redis.a /usr/local/captagent/lib/captagent/modules/database_redis.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/database_redis.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/database_redis.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory `/usr/src/captagent/src/modules/database/redis'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/database/redis'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/database/redis'
+Making install in modules/interface/http
+make[3]: Entering directory `/usr/src/captagent/src/modules/interface/http'
+Making install in .
+make[4]: Entering directory `/usr/src/captagent/src/modules/interface/http'
+make[5]: Entering directory `/usr/src/captagent/src/modules/interface/http'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/local/captagent/include" || /bin/mkdir -p "/usr/local/captagent/include"
+test -z "/usr/local/captagent/lib/captagent/modules" || /bin/mkdir -p "/usr/local/captagent/lib/captagent/modules"
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   interface_http.la '/usr/local/captagent/lib/captagent/modules'
+libtool: install: /usr/bin/install -c .libs/interface_http.so /usr/local/captagent/lib/captagent/modules/interface_http.so
+libtool: install: /usr/bin/install -c .libs/interface_http.lai /usr/local/captagent/lib/captagent/modules/interface_http.la
+libtool: install: /usr/bin/install -c .libs/interface_http.a /usr/local/captagent/lib/captagent/modules/interface_http.a
+libtool: install: chmod 644 /usr/local/captagent/lib/captagent/modules/interface_http.a
+libtool: install: ranlib /usr/local/captagent/lib/captagent/modules/interface_http.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin" ldconfig -n /usr/local/captagent/lib/captagent/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/captagent/lib/captagent/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory `/usr/src/captagent/src/modules/interface/http'
+make[4]: Leaving directory `/usr/src/captagent/src/modules/interface/http'
+make[3]: Leaving directory `/usr/src/captagent/src/modules/interface/http'
+make[2]: Leaving directory `/usr/src/captagent/src'
+make[1]: Leaving directory `/usr/src/captagent/src'
+Making install in include
+make[1]: Entering directory `/usr/src/captagent/include'
+make[2]: Entering directory `/usr/src/captagent/include'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/src/captagent/include'
+make[1]: Leaving directory `/usr/src/captagent/include'
+make[1]: Entering directory `/usr/src/captagent'
+make[2]: Entering directory `/usr/src/captagent'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/src/captagent'
+make[1]: Leaving directory `/usr/src/captagent'
